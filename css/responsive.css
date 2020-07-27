@@ -34,6 +34,13 @@ mobile screen
         font-size: 12px;
         font-weight: bold;
     }
+     .tesimonial-area {
+        height: 200px;
+    }
+
+    #tesimonial {
+        height: 375px;
+    }
 
 }
 
