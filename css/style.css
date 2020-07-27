@@ -1,0 +1,556 @@
+/*=============================================
+common css
+==============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+/*=============================================
+header css
+==============================================*/
+#top-header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+#top-header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#top-header ul li {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #e8e8e8;
+    color: #afb0b4;
+    font-size: 13px;
+
+}
+
+#top-header ul li:first-child {
+    display: inline-block;
+    padding: 10px;
+    border-left: 1px solid #e8e8e8;
+    color: #afb0b4;
+    font-size: 13px;
+
+}
+
+#top-header ul.social li:first-child {
+    border-left: 1px solid #e8e8e8;
+}
+
+
+#top-header ul li i {
+    color: #df4a43;
+    display: inline-block;
+    padding: 5px;
+}
+
+#top-header ul.social li a i {
+    color: #afb0b4;
+}
+
+#top-header ul.social li a i:hover {
+    color: #df4a43;
+}
+
+#top-header ul.social li:first-child {
+    border-left: 1px solid #e8e8e8;
+}
+
+.bg-light {
+    background-color: #fafafa !important;
+}
+
+.navbar .nav-item {
+    padding-left: 15px;
+}
+
+.navbar .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #565966;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    height: 170%;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #df4a43;
+
+}
+
+.navbar .nav-item .nav-link::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background: #df4a43;
+    content: '';
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.navbar .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+/*=============================================
+carousel css
+
+
+==============================================*/
+
+
+.slider .carousel-inner img {
+    width: 100%;
+    height: 750px;
+
+}
+
+.carousel-indicators .active {
+    background-color: #df4a43 !important;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    transition: opacity .6s ease;
+}
+
+.carousel-caption {
+    bottom: 275px;
+}
+
+/*=============================================
+feature css
+==============================================*/
+
+#feature .feather-head h3 {
+    color: #df4a43;
+}
+
+#feature .feather-head p {
+    font-size: 16px;
+    color: #6f7478;
+    font-weight: bold;
+}
+
+#feature .feather-head h3::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #cbcbcd;
+    margin: 10px auto;
+}
+
+#feature .icon {
+    margin-top: 5px;
+}
+
+
+#feature .icon i {
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid #cbcbcd;
+    color: #df4a43;
+}
+
+#feature .icon i:hover {
+    background-color: #df4a43;
+    color: #fff
+}
+
+#feature h6 {
+    color: #4d5359;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#feature h6::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #cbcbcd;
+    margin: 20px 0px;
+    ;
+}
+
+#feature p {
+    color: #4d5359;
+    font-size: 14px;
+}
+
+#feature a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/*=============================================
+services css
+==============================================*/
+
+#services {
+    background: #383c4b;
+}
+
+#services .service-head h3 {
+    color: #df4a43;
+}
+
+#services .service-head p {
+    font-size: 16px;
+    color: #ededed;
+    font-weight: bold;
+}
+
+#services .service-head h3::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #ededed;
+    margin: 10px auto;
+}
+
+#services .service-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#services .service-item i {
+    font-size: 50px;
+    border: 3px solid #686b76;
+    border-radius: 50%;
+    padding: 25px;
+    color: #df4a43;
+}
+
+#services .service-item i:hover {
+
+    background-color: #df4a43;
+    color: #fff;
+}
+
+#services .service-item-child h6 {
+    margin: 15px 0;
+    color: #df4a43;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#services .service-item-child h6::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #df4a43;
+    margin: 15px auto;
+}
+
+/*=============================================
+Course css
+==============================================*/
+
+#course .course-head h3 {
+    color: #df4a43;
+}
+
+#course .course-head p {
+    font-size: 16px;
+    color: #6f7478;
+    font-weight: bold;
+}
+
+#course .course-head h3::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #ededed;
+    margin: 10px auto;
+}
+
+#course .card img {
+    width: 100%;
+    height: 269px;
+}
+
+#course .course-main {
+    padding: 5px;
+}
+
+#course .card:hover {
+    background: #f4c4c1;
+    color: #000;
+}
+
+/*=============================================
+testimonial css
+==============================================*/
+
+#tesimonial {
+    background: url(../img/testi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+
+
+#tesimonial .review {
+    padding: 5px;
+}
+
+#tesimonial .review img {
+    width: 5%;
+    margin: 0 auto;
+}
+
+#tesimonial p {
+    padding: 10px;
+    color: #fff;
+}
+
+/*=============================================
+client css
+==============================================*/
+
+#client {
+    padding: 150px 0;
+}
+
+#client .client-head h3 {
+    color: #df4a43;
+
+}
+
+#client .client-head h3::after {
+    content: '';
+    width: 25px;
+    height: 2px;
+    display: block;
+    background: #6f7478;
+    margin: 10px 0;
+}
+
+.client-area .client-img img {
+    padding: 15px;
+    width: 80%;
+}
+
+#client .client-area {
+    position: relative;
+}
+
+#client .client-area .owl-dots {
+    display: none;
+}
+
+#client .client-area .owl-nav {
+
+    position: absolute;
+    right: 0px;
+    top: -105px;
+
+}
+
+#client .client-area .owl-nav button {
+    background-color: #df4a43;
+    color: #fff;
+    width: 30px;
+    font-size: 18px;
+    height: 30px;
+}
+
+/*=============================================
+contect css
+==============================================*/
+
+#contact {
+    background: #2c2f3c;
+    padding: 80px 0;
+}
+
+#contact h5 {
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 25px;
+
+}
+
+#contact .about p {
+    color: #aaabae;
+
+}
+
+#contact .about i {
+    color: #6f7478;
+    margin-right: 10px;
+}
+
+#contact .let-course i {
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid #cbcbcd;
+    color: #df4a43;
+}
+
+#contact .let-course p {
+    font-size: 20px;
+    color: #fff;
+}
+
+#contact .let-course li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#contact .let-course li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact .let-course li a:hover {
+    color: #df4a43;
+}
+
+#contact .popular-course li {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    margin: 10px 10px 10px 0px;
+
+}
+
+#contact .popular-course li a {
+    text-decoration: none;
+    color: #959598;
+    background-color: #252833;
+    padding: 5px;
+}
+
+#contact .popular-course li a:hover {
+    background-color: #df4a43;
+    color: #000;
+}
+
+
+#contact .social-lower li {
+    list-style: none;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+}
+
+#contact .social-lower li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#contact .social-lower li a i:hover {
+    color: #df4a43;
+}
+
+/*=============================================
+Footer css
+==============================================*/
+
+#footer {
+    background: #262934;
+    padding: 10px;
+    position: relative;
+}
+
+#footer p {
+    color: #fff;
+    padding: 10px 0;
+}
+
+#footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #4d5158;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer li a:hover {
+    color: #df4a43;
+}
+
+
+
+
+
+
+
+
+
+
+/*=============================================
+media query
+==============================================*/

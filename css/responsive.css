@@ -1,0 +1,102 @@
+/*=====================================
+mobile screen
+======================================*/
+
+@media only Screen and (min-width: 200px) and (max-width: 479px) {
+    #top-header {
+        display: none;
+    }
+
+    .slider .carousel-inner img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #client {
+        padding: 80px 0;
+    }
+
+    #client .client-area .owl-nav {
+        top: -80px;
+    }
+
+    #footer {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    #footer li a {
+
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+/*======================================
+carousel 
+========================================*/
+
+
+
+@media (max-width: 991px) {
+    .slider .carousel-inner img {
+        width: 100%;
+        height: 600px;
+    }
+
+    .carousel-caption {
+        bottom: 175px;
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider .carousel-inner img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .carousel-caption {
+        bottom: 75px;
+        font-size: 75px;
+    }
+
+
+    .display-3 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .slider .carousel-inner img {
+        width: 100%;
+        height: 250px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    #client {
+        padding: 80px 0;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
